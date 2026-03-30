@@ -1,6 +1,6 @@
 # 3_set.py
 # 두 집합 정의
-set1 = {1, 2, 3, 'a', "Hello"}
+set1 = {1, 2, 3, 'a', "Hello"} 
 set2 = {"Hello", 3, 4, 5, 'b'}
 
 # 합집합 (union)
