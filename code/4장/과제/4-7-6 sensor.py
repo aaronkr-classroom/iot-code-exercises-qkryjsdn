@@ -1,3 +1,5 @@
+##sensors.py 디렉토리 변수 04-07-06
+
 sensors = {
     'dht11': {
         'temperature': 23,
@@ -11,3 +13,5 @@ sensors = {
 }
 
 sensors
+
+##print(sensors) 디렉토리 출력
