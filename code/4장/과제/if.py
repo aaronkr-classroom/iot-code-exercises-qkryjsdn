@@ -1,7 +1,7 @@
 ## 4-33-2 if.py
 
-month = int(input())
-day = int(input())
+month = int(input("월 입력 : "))
+day = int(input("일 입력 : "))
 
 if month == 8 and day == 15:
     print("광복절")
