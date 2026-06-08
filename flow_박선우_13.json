@@ -1,0 +1,55 @@
+[
+    {
+        "id": "84c1ceb156540904",
+        "type": "mqtt in",
+        "z": "9121c6b0f038b11a",
+        "g": "753d05c778e18842",
+        "name": "a1)tele/ut_iot_2026/professor/LWT",
+        "topic": "tele/ut_iot_2026/professor/LWT",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "41af092009e2cd98",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 480,
+        "y": 120,
+        "wires": [
+            [
+                "dceda144985fa9e9"
+            ]
+        ]
+    },
+    {
+        "id": "41af092009e2cd98",
+        "type": "mqtt-broker",
+        "name": "HiveMQ",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
